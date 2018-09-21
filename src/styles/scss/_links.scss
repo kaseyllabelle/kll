@@ -1,0 +1,125 @@
+a.logo
+{
+	text-decoration: none;
+
+	&:hover
+	{
+		text-decoration: none;
+	}
+}
+
+a.primary
+{
+	position: relative;
+	display: inline-block;
+	color: $grey100;
+	text-decoration: none;
+
+	&:before
+	{
+		content: '';
+		position: absolute;
+		bottom: -2px;
+		left: 50%;
+		width: 0;
+		height: 1px;
+		transform: translateX(-50%);
+		transition: width 0.2s ease-in-out;
+		background-color: $accent;
+	}
+
+	&:hover
+	{
+		color: $accent;
+
+		&:before
+		{
+			width: 100%;
+		}
+	}
+}
+
+.social-links
+{
+	margin-top: 20px;
+}
+
+.social-link
+{
+	margin-bottom: 1em;
+}
+
+.social-link-text,
+.social-link-icon,
+.footer-link-icon
+{
+	text-decoration: none;
+	color: $grey100;
+	transition: 0.2s;
+}
+
+.social-link-icon
+{
+	margin-right: 10px;
+}
+
+.footer-link-icon
+{
+	margin: 10px;
+}
+
+.social-link-icon:hover,
+.footer-link-icon:hover
+{
+	cursor: pointer;
+}
+
+.email:hover
+{
+	.social-link-text,
+	.social-link-icon,
+	.footer-link-icon
+	{
+		color: $accent;
+	}
+}
+
+.linkedin:hover
+{
+	.social-link-text,
+	.social-link-icon,
+	.footer-link-icon
+	{
+		color: $linkedin;
+	}
+}
+
+.github:hover
+{
+	.social-link-text,
+	.social-link-icon,
+	.footer-link-icon
+	{
+		color: $github;
+	}
+}
+
+.twitter:hover
+{
+	.social-link-text,
+	.social-link-icon,
+	.footer-link-icon
+	{
+		color: $twitter;
+	}
+}
+
+.tumblr:hover
+{
+	.social-link-text,
+	.social-link-icon,
+	.footer-link-icon
+	{
+		color: $tumblr;
+	}
+}
