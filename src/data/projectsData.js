@@ -22,10 +22,8 @@ export const projectsData = [
 	{
 		id: 2,
 		name: 'Pride',
-		description1: `Pride is Cimpress and Vistaprint's employee resource group for LGBTQ+ employees (and the people who love us).`,
-		description2: `I kicked off my logo design process with a brainstorming session in order to pinpoint the messages we wanted the brand to represent. During that session, we identified a long list of keywords, some of which were: visibility, community, and welcoming.`,
-		description3: `Rainbows are bright, bold, warm, and a historically-significant symbol for the LGBTQ+ community, so I knew Pride's brand needed to include the rainbow. I also wanted the brand to complement the Cimpress and Vistaprint brands, so I chose to use Cimpress' primary typeface and color for the lettering and Vistaprint's palette for the colors in the rainbow.`,
-		description4: `I also designed flyers, postcards, newsletters, signage, and various other materials for Pride events and company-wide events hosted by Pride.`,
+		description1: `Pride is a Cimpress and Vistaprint employee resource group for LGBTQ+ employees and allies. When designing the brand, I wanted it to convey visibility, community, and a sense of welcoming inclusivity.`,
+		description2: `With that in mind, I started with the rainbow – bright, bold, warm, and historically significant to the LGBTQ+ community. By adding key elements of the Cimpress and Vistaprint brands — Cimpress' primary typeface and text color, and Vistaprint's rainbow palette — the logo felt true and reflective of both the community and the companies. In addition to the logo, I created flyers, postcards, newsletters, signage, and other event materials.`,
 		stack: 'Illustrator, InDesign',
 		featuredImage: '/images/design/pride/00.jpg',
 		images: [
@@ -43,9 +41,8 @@ export const projectsData = [
 	{
 		id: 3,
 		name: 'Women In Technology',
-		description1: `WIT is Cimpress and Vistaprint's employee resource group for women in technology.`,
-		description2: `I kicked off my logo design process with a brainstorming session in order to pinpoint the messages we wanted the brand to represent. We identified a long list of keywords, like: connected, empowering, and technology. Since technology connects and empowers people, I designed a simple, primarily typographic treatment reminiscent of an HTML tag.`,
-		description3: `I also created a style guide for the WIT brand, and designed flyers, postcards, thank you cards, newsletters, signage, swag, and various other materials.`,
+		description1: `WIT is a Cimpress and Vistaprint employee resource group for women in technology. When designing the brand, my goals were to convey a spirit of connection and empowerment, with a techy style.`,
+		description2: `Since technology connects and empowers people, I designed a simple, primarily typographic treatment reminiscent of an HTML tag. In addition to the logo, I created a style guide for the WIT brand, flyers, postcards, thank you cards, newsletters, signage, swag, and various other event materials.`,
 		stack: 'Illustrator, InDesign, JavaScript',
 		featuredImage: '/images/design/wit/00.jpg',
 		images: [
@@ -70,11 +67,8 @@ export const projectsData = [
 	{
 		id: 4,
 		name: 'Inclusion',
-		description1: `Inclusion is Cimpress and Vistaprint's employee resource group dedicated to diversity and inclusion.`,
- 		description2: `I kicked off my logo design process with a brainstorming session in order to pinpoint the messages we wanted the brand to represent. During that session, we identified a long list of keywords, some of which were: identities, inclusion, diversity, intersectionality, and community.`,
-		description3: `Using a hashtag as the logo mark was a no-brainer. Not only are hashtags trendy and techy, they're also the shape of an intersection, they represent an id/identity, they act as links, they increase awareness and consciousness, and they help to create communities that rally around social movements across the world.`,
-		description4: `I wanted Inclusion's brand to complement the Cimpress and Vistaprint brands, so I chose to use Mark Pro as the typeface and blue as the primary color. Plus, Mark Pro's rounded letterforms emit a feeling of warmth and support, and blue is the standard color of a link which further reinforces the connections to tech, links, hashtags, and community.`,
-		description5: `I also designed the brochure for Inclusion's Diversity & Inclusion Workshop, attended by key leaders across the company.`,
+		description1: `Inclusion is a Cimpress and Vistaprint employee resource group dedicated to diversity and inclusion. I wanted the logo to convey a variety of ideas, among them identity, inclusion, diversity, intersectionality, and community. `,
+ 		description2: `Using a hashtag as the logo mark was a no-brainer. Not only are hashtags techy and on-trend, they're also the shape of an intersection, they represent an id/identity, they act as links, they increase awareness and consciousness, and they help to create communities that rally around social movements across the world. Cimpress’ primary typeface, Mark Pro, and Vistaprint’s primary color, blue, served double duty with this logo. Mark Pro's rounded letterforms emit a feeling of warmth and support, and blue is the standard color of a link which further reinforces the connections to tech, links, hashtags, and community. In addition to this logo, I also produced brochures for the group.`,
 		stack: 'Illustrator, InDesign',
 		featuredImage: '/images/design/inclusion/00.jpg',
 		images: [

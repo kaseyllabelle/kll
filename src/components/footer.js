@@ -11,7 +11,7 @@ export default function Footer(props)
 							<i className="fas fa-envelope fa-fw fa-lg footer-link-icon" title="Email"></i>
 						</a>
 						<a href="https://goo.gl/forms/fcvTryc6Pryrxjfj2" className="google-form">
-							<i className="fab fa-google fa-fw fa-lg footer-link-icon" title="Form"></i>
+							<i className="fab fa-google fa-fw fa-lg footer-link-icon" title="Contact Form"></i>
 						</a>
 						<a href="https://www.linkedin.com/in/kaseyllabelle" className="linkedin">
 							<i className="fab fa-linkedin-in fa-fw fa-lg footer-link-icon" title="LinkedIn"></i>

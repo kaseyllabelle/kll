@@ -4,7 +4,7 @@ export default function Contact(props)
 {
 	return(
 		<Fragment>
-			<p className="body">If you’d like to learn more about me and my work, or chat about an opportunity to work together, get in&nbsp;touch!</p>
+			<p className="body">If you’d like to learn more about me and my work, chat about an opportunity to work together, or swap puppy pics, get in&nbsp;touch!</p>
 			<div className="social-links">
 				<div className="social-link email">
 					<a href="mailto:kll.design.dev@gmail.com" className="social-link-text">
@@ -14,7 +14,7 @@ export default function Contact(props)
 				</div>
 				<div className="social-link google-form">
 					<a href="https://goo.gl/forms/fcvTryc6Pryrxjfj2" className="social-link-text">
-						<i className="fab fa-google fa-fw fa-lg social-link-icon" title="Form"></i>
+						<i className="fab fa-google fa-fw fa-lg social-link-icon" title="Contact Form"></i>
 						contact form
 					</a>
 				</div>
