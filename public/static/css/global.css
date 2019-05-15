@@ -331,6 +331,11 @@ a.primary {
 .email:hover .footer-link-icon {
   color: #76BC21; }
 
+.google-form:hover .social-link-text,
+.google-form:hover .social-link-icon,
+.google-form:hover .footer-link-icon {
+  color: #4285F4; }
+
 .linkedin:hover .social-link-text,
 .linkedin:hover .social-link-icon,
 .linkedin:hover .footer-link-icon {
