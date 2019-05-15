@@ -333,6 +333,21 @@ export const projectsData = [
 	},
 	{
 		id: 21,
+		name: 'Lesbians Who Tech Boston',
+		description1: 'Lesbians Who Tech + Allies (LWT) is the largest LGBTQ technology community in the world — committed to visibility, intersectionality, and changing the face of technology. The Boston chapter of LWT is one of the most active chapters in the country. Working within the existing national brand, I designed a logo and website for the Boston chapter.',
+		stack: 'HTML, CSS',
+		url: `http://www.lwtboston.org`,
+		featuredImage: '/images/development/lwtboston/00.jpg',
+		images: [
+			'/images/development/lwtboston/01.jpg'
+		],
+		filter: [
+			'Design',
+			'Development'
+		]
+	},
+	{
+		id: 22,
 		name: 'Infinite Thanks',
 		description1: `I designed a custom thank you card (featuring an intentionally infinite loop) for Cimpress and Vistaprint's WIT group.`,
 		stack: 'InDesign, JavaScript',
@@ -346,7 +361,7 @@ export const projectsData = [
 		]
 	},
 	{
-		id: 22,
+		id: 23,
 		name: 'adopt-a-bull',
 		description1: 'adopt-a-bull is an app that connects users with ador-a-bull, adopt-a-bull pitbulls.',
 		stack: 'HTML, CSS, SCSS, JavaScript, React, Redux, Node, Illustrator, Photoshop',
@@ -365,7 +380,7 @@ export const projectsData = [
 		]
 	},
 	{
-		id: 23,
+		id: 24,
 		name: 'Think you know CSS?',
 		description1: `Take this quiz to see how well you actually know CSS. Sounds nerdy in a boring way, you say? Think again, friend. Instead of simply seeing a green checkmark or a red "x" if you've answered a question correctly or not, you'll get real-time visual results. If you answer a question correctly, the styles being asked about in that particular question will be applied to the quiz. If you answer a question incorrectly, you'll be stuck with the browser's (often ugly) default styles. By the end of this quiz, you'll see exactly how well you know CSS. (For best results, use the latest version of Chrome. For hilariously awful results, use the oldest version of Internet Explorer that you can find.)`,
 		stack: 'HTML, CSS, SCSS, JavaScript, jQuery',
@@ -384,7 +399,7 @@ export const projectsData = [
 		]
 	},
 	{
-		id: 24,
+		id: 25,
 		name: 'IoP',
 		description1: 'This app shows users a curated list of puppy images, videos, and gifs from all over the internet because the Internet of Puppies > the Internet of Things.',
 		stack: 'HTML, CSS, JavaScript, jQuery',
@@ -400,7 +415,7 @@ export const projectsData = [
 		]
 	},
 	{
-		id: 25,
+		id: 26,
 		name: 'Puppies, please!',
 		description1: `Type an adjective or breed into the input and click "search" for a curated list of your favorite kind of puppy videos. What more could you want?`,
 		stack: 'HTML, CSS, JavaScript, jQuery, YouTube API',
@@ -416,7 +431,7 @@ export const projectsData = [
 		]
 	},
 	{
-		id: 26,
+		id: 27,
 		name: 'Drawings & Paintings',
 		description1: `My career as a Graphic & Web Designer began when my Drawing I professor told me that I was too much of a perfectonist to be a fine artist, and that I should be a Graphic Designer instead. That said, I've never gotten over my love for the feeling of a graphite pencil or conte crayon in my hand. Here are some snapshots of my drawings and paintings.`,
 		featuredImage: '/images/art/fine-art/00.jpg',
@@ -436,7 +451,7 @@ export const projectsData = [
 		]
 	},
 	{
-		id: 27,
+		id: 28,
 		name: 'Bookbinding',
 		description1: 'I love the tactile qualities of fine paper, book cloth, ribbon and string. I also fancy working with my hands. Since I live largely in a digital world, I get my fix by creating handmade books, folders, and journals, among other things. Here are a few samples.',
 		featuredImage: '/images/art/bookbinding/00.jpg',
@@ -453,7 +468,7 @@ export const projectsData = [
 		]
 	},
 	{
-		id: 28,
+		id: 29,
 		name: 'Home Is Where The Heart Is',
 		description1: `"Home Is Where The Heart Is" is an exploration of the delicate balance between comfort and devastation.`,
 		featuredImage: '/images/art/houses/00.jpg',
