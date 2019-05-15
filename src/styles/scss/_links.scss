@@ -84,6 +84,16 @@ a.primary
 	}
 }
 
+.google-form:hover
+{
+	.social-link-text,
+	.social-link-icon,
+	.footer-link-icon
+	{
+		color: $google;
+	}
+}
+
 .linkedin:hover
 {
 	.social-link-text,
