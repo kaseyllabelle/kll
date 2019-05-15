@@ -196,12 +196,12 @@ export const projectsData = [
 	},
 	{
 		id: 12,
-		name: 'Happy Purrrthday',
-		description1: 'I designed this super cute purrrthday card for cat people.',
+		name: 'Happy Purrthday',
+		description1: 'I designed this super cute purrthday card for cat people.',
 		stack: 'Illustrator, InDesign',
-		featuredImage: '/images/design/happy-purrrthday/00.jpg',
+		featuredImage: '/images/design/happy-purrthday/00.jpg',
 		images: [
-			'/images/design/happy-purrrthday/01.jpg'
+			'/images/design/happy-purrthday/01.jpg'
 		],
 		filter: [
 			'Design'
