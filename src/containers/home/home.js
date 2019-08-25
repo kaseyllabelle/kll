@@ -19,8 +19,9 @@ export default class Home extends React.Component
 	}
 
 	filterProjectsFn(filter) {
-		console.log(filter);
-		this.setState({currentFilter: filter});
+		this.setState({
+			currentFilter: filter
+		});
 	}
 
 	render() {
@@ -37,9 +38,11 @@ export default class Home extends React.Component
 
 		return(
 			<Fragment>
-				<section className="grid-container main">
+				<main id="mainContent" className="grid-container">
 					<div className="row">
-						<h1 className="col page-header">Projects</h1>
+						<div className="col">
+							<h1 className="h1">Projects</h1>
+						</div>
 					</div>
 					<div className="row">
 						<Filters filterProjectsProp={this.filterProjectsFn} />
@@ -47,7 +50,7 @@ export default class Home extends React.Component
 					<div className="row">
 						{filteredProjects}
 					</div>
-				</section>
+				</main>
 			</Fragment>
 		)
 	}

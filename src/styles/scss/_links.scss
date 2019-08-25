@@ -1,37 +1,56 @@
-a.logo
+.skip-link
 {
+	position: absolute;
+	top: -50px;
+	left: 0;
+	border: 0;
+	padding: 0.25rem 0.5rem;
+	background: $chalk;
+	color: $font-color-primary;
 	text-decoration: none;
+	transition: top 1s ease-out;
 
 	&:hover
 	{
-		text-decoration: none;
+		color: $ink;
+	}
+
+	&:focus
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		outline-offset: 0;
+		transition: top 0.5s ease-in;
 	}
 }
 
-a.primary
+.primary
 {
 	position: relative;
 	display: inline-block;
-	color: $grey100;
+	border: 0;
+	padding: 0;
+	background: transparent;
+	color: $font-color-primary;;
 	text-decoration: none;
 
 	&:before
 	{
 		content: '';
 		position: absolute;
-		bottom: -2px;
+		bottom: -0.125rem;
 		left: 50%;
 		width: 0;
 		height: 1px;
 		transform: translateX(-50%);
 		transition: width 0.2s ease-in-out;
-		background-color: $accent;
+		background-color: $accent-color-primary;
 	}
 
-	&:hover
+	&:hover,
+	&.active
 	{
-		color: $accent;
-
 		&:before
 		{
 			width: 100%;
@@ -39,56 +58,19 @@ a.primary
 	}
 }
 
-.social-links
-{
-	margin-top: 20px;
-}
-
-.social-link
-{
-	margin-bottom: 1em;
-}
-
-.social-link-text,
-.social-link-icon,
-.footer-link-icon
-{
-	text-decoration: none;
-	color: $grey100;
-	transition: 0.2s;
-}
-
-.social-link-icon
-{
-	margin-right: 10px;
-}
-
-.footer-link-icon
-{
-	margin: 10px;
-}
-
-.social-link-icon:hover,
-.footer-link-icon:hover
-{
-	cursor: pointer;
-}
-
 .email:hover
 {
-	.social-link-text,
-	.social-link-icon,
-	.footer-link-icon
+	a,
+	i
 	{
-		color: $accent;
+		color: $accent-color-primary;
 	}
 }
 
 .google-form:hover
 {
-	.social-link-text,
-	.social-link-icon,
-	.footer-link-icon
+	a,
+	i
 	{
 		color: $google;
 	}
@@ -96,9 +78,8 @@ a.primary
 
 .linkedin:hover
 {
-	.social-link-text,
-	.social-link-icon,
-	.footer-link-icon
+	a,
+	i
 	{
 		color: $linkedin;
 	}
@@ -106,9 +87,8 @@ a.primary
 
 .github:hover
 {
-	.social-link-text,
-	.social-link-icon,
-	.footer-link-icon
+	a,
+	i
 	{
 		color: $github;
 	}
@@ -116,9 +96,8 @@ a.primary
 
 .twitter:hover
 {
-	.social-link-text,
-	.social-link-icon,
-	.footer-link-icon
+	a,
+	i
 	{
 		color: $twitter;
 	}
@@ -126,9 +105,8 @@ a.primary
 
 .tumblr:hover
 {
-	.social-link-text,
-	.social-link-icon,
-	.footer-link-icon
+	a,
+	i
 	{
 		color: $tumblr;
 	}

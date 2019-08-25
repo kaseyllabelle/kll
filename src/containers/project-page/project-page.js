@@ -2,8 +2,11 @@ import React, {Fragment} from 'react';
 
 import {projectsData} from '../../data/projectsData';
 
-import ProjectPageDescription from '../../containers/project-page/project-page.description';
 import ProjectPageImagery from '../../containers/project-page/project-page.imagery';
+import ProjectPageDescription from '../../containers/project-page/project-page.description';
+
+// TODO:
+// DRY code
 
 export default function ProjectPage(props)
 {
@@ -19,7 +22,7 @@ export default function ProjectPage(props)
 
 	return(
 		<Fragment>
-			<section className="grid-container project-page">
+			<main id="mainContent" className="grid-container project-page">
 				<div className="row">
 					<div className="col col-7 col-s-6 col-xs-12 order-last">
 						<ProjectPageImagery imageryProp={filteredData.images} />
@@ -37,7 +40,7 @@ export default function ProjectPage(props)
 						/>
 					</div>
 				</div>
-			</section>
+			</main>
 		</Fragment>
 	)
 }

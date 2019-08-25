@@ -1,14 +1,40 @@
-$roboto: 'Roboto', sans-serif;
+html
+{
+	box-sizing: border-box;
+}
 
-$accent: #76BC21;
-$white: #FFFFFF;
-$grey100: #676C72;
-$grey75: #8B8E93;
-$grey50: #AFB2B5;
-$grey25: #D6D7D9;
+*, 
+*:before, 
+*:after
+{
+	box-sizing: inherit;
+}
 
-$google: #4285F4;
-$linkedin: #0077B5;
-$github: #24292E;
-$twitter: #1DA1F2;
-$tumblr: #35465C;
+*
+{
+  	font-family: $font-family-body;
+
+	&:focus
+	{
+		outline-width: 0.125rem;
+		outline-style: solid;
+		outline-color: rgba($accent-color-primary, 0.5);
+		outline-offset: 0.125rem;
+	}
+
+	&::selection
+	{
+		background: $platinum;
+	}
+}
+
+body
+{
+	margin: 0 auto;
+}
+
+button
+{
+	line-height: 1;
+	cursor: pointer;
+}

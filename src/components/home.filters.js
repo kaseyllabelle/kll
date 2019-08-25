@@ -1,15 +1,18 @@
 import React from 'react';
 
-// add active state + maintain filter selection between home -> project page -> home
+// TODO:
+// DRY code
+// add active state
+// maintain selected filter while navigating
 
 export default function Filters(props)
 {
 	return(
-		<div className="col filters">
-			Filter: <a onClick={(e) => {props.filterProjectsProp("All")}} className="primary filter">All</a>
-			<a onClick={(e) => {props.filterProjectsProp("Design")}} className="primary filter">Design</a>
-			<a onClick={(e) => {props.filterProjectsProp("Development")}} className="primary filter">Development</a>
-			<a onClick={(e) => {props.filterProjectsProp("Fine Art")}} className="primary filter">Fine Art</a>
+		<div className="col">
+			<button onClick={(e) => {props.filterProjectsProp("All")}} className="filter">All</button>
+			<button onClick={(e) => {props.filterProjectsProp("Design")}} className="filter">Design</button>
+			<button onClick={(e) => {props.filterProjectsProp("Development")}} className="filter">Development</button>
+			<button onClick={(e) => {props.filterProjectsProp("Fine Art")}} className="filter">Fine Art</button>
 		</div>
 	)
 }

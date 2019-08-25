@@ -9,11 +9,11 @@ import Home from './containers/home/home';
 
 const App = () => (
   <Fragment>
-    <Route path="/" component={Header} />
+  	<Header />
     <Route exact path="/" component={Home} />
     <Route path="/info" component={Info} />
     <Route path="/project/:name" component={ProjectPage} />
-    <Route path="/" component={Footer} />
+    <Footer />
   </Fragment>
 )
 

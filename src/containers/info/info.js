@@ -7,7 +7,7 @@ export default function Info(props)
 {
 	return(
 		<Fragment>
-			<section className="grid-container">
+			<main id="mainContent" className="grid-container">
 				<div className="row">
 					<div className="col col-5 col-s-5 col-xs-12 hidden-xs">
 						<img src="/images/kasey.jpg" className="photo" alt="Kasey"/>
@@ -17,7 +17,7 @@ export default function Info(props)
 						<Contact/>
 					</div>
 				</div>
-			</section>
+			</main>
 		</Fragment>
 	)
 }
