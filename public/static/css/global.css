@@ -283,7 +283,7 @@ p,
   list-style-type: none; }
 
 .nav-list-item {
-  margin: 0 1rem 0 0; }
+  margin: 0 2rem 0 0; }
 
 .nav-list-item:last-of-type {
   margin-right: 0; }
@@ -305,7 +305,7 @@ p,
     justify-content: center; }
 
   .nav-list-item:last-of-type {
-    margin: 0 1rem 0 0; } }
+    margin: 0 2rem 0 0; } }
 .filter {
   margin: 0 1rem 1rem 0;
   border: 1px solid #676C72;
