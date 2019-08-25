@@ -14,7 +14,7 @@ export default function ProjectPageDescription(props)
 			{props.description4Prop && <p className="paragraph">{props.description4Prop}</p>}
 			{props.description5Prop && <p className="paragraph">{props.description5Prop}</p>}
 			{props.stackProp && <p className="text-small">{props.stackProp}</p>}
-			{props.urlProp && <p className="text-small"><a href={props.urlProp} target="_blank" className="primary">View Website</a></p>}
+			{props.urlProp && <p className="text-small"><a href={props.urlProp} target="_blank" rel="noopener noreferrer" className="primary">View Website</a></p>}
 		</Fragment>
 	)
 }
