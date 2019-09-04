@@ -312,9 +312,16 @@ p,
   font-size: 0.875rem; }
   .filter:last-of-type {
     margin: 0 1rem 2rem 0; }
-  .filter:hover, .filter.active {
+  .filter:hover {
     border-color: #76BC21;
     transition: border-color 0.2s ease-in-out; }
+
+[data-active-filter="All"] [data-filter="All"],
+[data-active-filter="Design"] [data-filter="Design"],
+[data-active-filter="Development"] [data-filter="Development"],
+[data-active-filter="Fine Art"] [data-filter="Fine Art"] {
+  border-color: #76BC21;
+  transition: border-color 0.2s ease-in-out; }
 
 @-moz-document url-prefix() {
   .filter {

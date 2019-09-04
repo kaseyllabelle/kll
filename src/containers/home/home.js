@@ -10,13 +10,14 @@ import Card from '../../components/home.card';
 
 export default function Home(props)
 {
-  const [currentFilter, setCurrentFilter] = useState('All');
   const { appStore, appStoreDispatch } = useContext(appContext);
 
   const goToPageFn = (page) => {
     appStoreDispatch({ type: CURRENT_PAGE, payload: 'Projects' })
     window.location.href = `/project/${page.toLowerCase().replace(/\s/g, '-')}`;
   }
+
+  const [currentFilter, setCurrentFilter] = useState('All');
 
   const filterProjectsFn = (filter) => {
     setCurrentFilter(filter);
@@ -42,7 +43,7 @@ export default function Home(props)
           </div>
         </div>
         <div className="row">
-          <Filters filterProjectsProp={filterProjectsFn} />
+          <Filters filterProjectsProp={filterProjectsFn} currentFilter={currentFilter} />
         </div>
         <div className="row">
           {filteredProjects}

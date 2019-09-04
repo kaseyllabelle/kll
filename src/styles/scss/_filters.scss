@@ -12,12 +12,20 @@
 		margin: 0 1rem 2rem 0;
 	}
 
-	&:hover,
-	&.active
+	&:hover
 	{
 		border-color: $accent-color-primary;
 		transition: border-color 0.2s ease-in-out;
 	}
+}
+
+[data-active-filter="All"] [data-filter="All"],
+[data-active-filter="Design"] [data-filter="Design"],
+[data-active-filter="Development"] [data-filter="Development"],
+[data-active-filter="Fine Art"] [data-filter="Fine Art"]
+{
+	border-color: $accent-color-primary;
+	transition: border-color 0.2s ease-in-out;
 }
 
 @-moz-document url-prefix()
