@@ -6,9 +6,7 @@ export const appReducer = (state = initialAppContext, action) => {
   const currentState = {...state};
 
   switch(action.type) {
-    case appConstants.CURRENT_PAGE: 
-    //
+    case appConstants.CURRENT_PAGE:
+    default: return currentState;
   }
-  return currentState;
-
 }
