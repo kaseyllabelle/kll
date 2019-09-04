@@ -5,9 +5,6 @@ import {projectsData} from '../../data/projectsData';
 import ProjectPageImagery from '../../containers/project-page/project-page.imagery';
 import ProjectPageDescription from '../../containers/project-page/project-page.description';
 
-// TODO:
-// DRY code
-
 export default function ProjectPage(props)
 {
 	let currentProject = window.location.href.split('/');

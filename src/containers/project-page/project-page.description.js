@@ -1,8 +1,5 @@
 import React, {Fragment} from 'react';
 
-// TODO:
-// DRY code
-
 export default function ProjectPageDescription(props)
 {
 	return(

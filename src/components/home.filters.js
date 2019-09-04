@@ -1,10 +1,5 @@
 import React from 'react';
 
-// TODO:
-// DRY code
-// add active state
-// maintain selected filter while navigating
-
 export default function Filters(props)
 {
 	return(
