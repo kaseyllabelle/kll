@@ -1,26 +1,11 @@
 import React, {Fragment} from 'react';
 
-const contactArray = [
-	{
-		className: 'paragraph google-form',
-		link: 'https://goo.gl/forms/fcvTryc6Pryrxjfj2',
-		icon: 'fab fa-google fa-fw fa-lg',
-		sr: 'Contact Form',
-		text: 'contact form'
-	},
-	{
-		className: 'paragraph linkedin',
-		link: 'https://www.linkedin.com/in/kaseyllabelle',
-		icon: 'fab fa-linkedin-in fa-fw fa-lg',
-		sr: 'LinkedIn',
-		text: 'linkedin.com/in/kaseyllabelle'
-	}
-]
+import { contactData } from '../../data/contactData';
 
 export default function Contact(props)
 {
 
-	const socialLinks = contactArray.map(item => {
+	const socialLinks = contactData.map(item => {
 		return (
 			<p key={item.className} className={item.className}>
 				<a href={item.link} target="_blank" rel="noopener noreferrer">

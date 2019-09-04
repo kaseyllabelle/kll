@@ -27,6 +27,7 @@ export default function ProjectPage(props)
 					<div className="col col-5 col-s-6 col-xs-12 order-first">
 						<ProjectPageDescription 
 							nameProp={filteredData.name} 
+							// descriptionProp={filteredData.description}
 							description1Prop={filteredData.description1} 
 							description2Prop={filteredData.description2} 
 							description3Prop={filteredData.description3} 

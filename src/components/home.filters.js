@@ -2,12 +2,17 @@ import React from 'react';
 
 export default function Filters(props)
 {
+	const filtersArray = ['All', 'Design', 'Development', 'Fine Art'];
+
+	const filters = filtersArray.map((item) => {
+		return (
+			<button key={btoa (item)} onClick={(e) => {props.filterProjectsProp(item)}} data-filter={item} className="filter">{item}</button>
+		)
+	})
+
 	return(
 		<div className="col" data-active-filter={props.currentFilterProp}>
-			<button onClick={(e) => {props.filterProjectsProp("All")}} data-filter="All" className="filter">All</button>
-			<button onClick={(e) => {props.filterProjectsProp("Design")}} data-filter="Design" className="filter">Design</button>
-			<button onClick={(e) => {props.filterProjectsProp("Development")}} data-filter="Development" className="filter">Development</button>
-			<button onClick={(e) => {props.filterProjectsProp("Fine Art")}} data-filter="Fine Art" className="filter">Fine Art</button>
+			{filters}
 		</div>
 	)
 }

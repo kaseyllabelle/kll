@@ -2,9 +2,19 @@ import React, {Fragment} from 'react';
 
 export default function ProjectPageDescription(props)
 {
+	// const description = props.description.map((item, index) => {
+	// 	return (
+	// 		<p key={btoa (index)} className="paragraph">
+	// 			{item}
+	// 		</p>
+	// 	)
+	// })
+
 	return(
 		<Fragment>
 			<h1 className="h1">{props.nameProp}</h1>
+			{/* {description} */}
+
 			{props.description1Prop && <p className="paragraph">{props.description1Prop}</p>}
 			{props.description2Prop && <p className="paragraph">{props.description2Prop}</p>}
 			{props.description3Prop && <p className="paragraph">{props.description3Prop}</p>}

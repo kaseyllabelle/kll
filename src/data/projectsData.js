@@ -22,6 +22,7 @@ export const projectsData = [
 	{
 		id: 2,
 		name: 'Pride',
+		// description: [`1`, `2`],
 		description1: `Pride is a Cimpress and Vistaprint employee resource group for LGBTQ+ employees and allies. When designing the brand, I wanted it to convey visibility, community, and a sense of welcoming inclusivity.`,
 		description2: `With that in mind, I started with the rainbow – bright, bold, warm, and historically significant to the LGBTQ+ community. By adding key elements of the Cimpress and Vistaprint brands — Cimpress' primary typeface and text color, and Vistaprint's rainbow palette — the logo felt true and reflective of both the community and the companies. In addition to the logo, I created flyers, postcards, newsletters, signage, and other event materials.`,
 		stack: 'Illustrator, InDesign',

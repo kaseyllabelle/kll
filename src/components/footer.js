@@ -1,5 +1,7 @@
 import React from 'react';
 
+// TODO: dry code like info.contact
+
 export default function Footer(props)
 {
 	return(
