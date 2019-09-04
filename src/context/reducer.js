@@ -2,6 +2,9 @@ import * as appConstants from './constants';
 import { initialAppContext } from './initializers';
 
 export const appReducer = (state = initialAppContext, action) => {
+
+  console.log(state, action);
+
   switch(action.type) {
     case appConstants.CURRENT_PAGE:
     const currentPage = action.payload.split('/').pop() === 'info' ? 'Info' : 'Projects';
@@ -10,6 +13,6 @@ export const appReducer = (state = initialAppContext, action) => {
     case appConstants.CURRENT_FILTER:
     return { ...state, currentFilter: action.payload }
 
-    default: return state;
+    default: return state
   }
 }
