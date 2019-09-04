@@ -4,12 +4,7 @@ import Slider from 'react-slick';
 export default function ProjectPageImagery(props)
 {
   const imagery = props.imageryProp.map((image, index) => {
-    return <img 
-          key={index} 
-          className="project-page-imagery" 
-          src={image} 
-          alt="project imagery"
-        />
+    return <img key={index} className="project-page-imagery" src={image} alt="project imagery"/>
   });
 
   const settings = {

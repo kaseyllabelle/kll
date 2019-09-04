@@ -8,8 +8,8 @@ export default function Nav(props)
 {
   const { appStore, appStoreDispatch } = useContext(appContext);
 
-  const projects = appStore.currentPage === 'Projects' ? 'primary active' : 'primary';
-  const info = appStore.currentPage === 'Info' ? 'primary active' : 'primary';
+  const projects = appStore.currentPage === 'projects' ? 'primary active' : 'primary';
+  const info = appStore.currentPage === 'info' ? 'primary active' : 'primary';
 
   const updateActivePage = (s) => {
     appStoreDispatch({ type: CURRENT_PAGE, payload: s })

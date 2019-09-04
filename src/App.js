@@ -20,7 +20,7 @@ const App = () => {
     appStoreDispatch({ type: CURRENT_PAGE, payload: window.location.href });
   }, []);
 
-  return (
+  return(
     <appContext.Provider value={{ appStore, appStoreDispatch }}>
       <Header/>
       <Route exact path="/" component={Home}/>

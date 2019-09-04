@@ -5,7 +5,7 @@ import { contactData } from '../data/contactData';
 export default function Footer(props)
 {
   const socialIcons = contactData.map(item => {
-    return (
+    return(
       <a key={item.className} href={item.link} target="_blank" rel="noopener noreferrer" className={item.className}>
         <i className={item.icon} aria-hidden="true"></i>
         <span className="sr-only">{item.sr}</span>

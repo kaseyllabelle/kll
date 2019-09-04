@@ -4,7 +4,7 @@ export default function Filters(props)
 {
   const filtersArray = ['All', 'Design', 'Development', 'Fine Art'];
   const filters = filtersArray.map((item) => {
-    return (
+    return(
       <button key={btoa (item)} onClick={(e) => {props.filterProjectsProp(item)}} data-filter={item} className="filter">
         {item}
       </button>

@@ -14,7 +14,7 @@ export default function Home(props)
   const [ currentFilter, setCurrentFilter ] = useState(appStore.currentFilter);
 
   const goToPageFn = (page) => {
-    appStoreDispatch({ type: CURRENT_PAGE, payload: 'Projects' });
+    appStoreDispatch({ type: CURRENT_PAGE, payload: 'projects' });
   };
 
   const filterProjectsFn = (filter) => {

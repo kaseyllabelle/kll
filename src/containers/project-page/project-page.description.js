@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 export default function ProjectPageDescription(props)
 {
   const description = props.descriptionProp.map((item, index) => {
-    return (
+    return(
       <p key={btoa (index)} className="paragraph">
         {item}
       </p>
