@@ -1,57 +1,55 @@
-import React, {Fragment} from 'react';
+import React, { Fragment, useState, useContext } from 'react';
 
-import {projectsData} from '../../data/projectsData';
+import { appContext } from '../../App';
+import { CURRENT_PAGE } from '../../context/constants'
+
+import { projectsData } from '../../data/projectsData';
+
 import Filters from '../../components/home.filters';
 import Card from '../../components/home.card';
 
-export default class Home extends React.Component
+export default function Home(props)
 {
-	constructor(props) {
-		super(props);
-		this.state = {
-			currentFilter: "All"
-		};
-		this.filterProjectsFn = this.filterProjectsFn.bind(this);
-	}
+  const [currentFilter, setCurrentFilter] = useState('All');
+  const { appStore, appStoreDispatch } = useContext(appContext);
 
-	goToPageFn(page) {
-		window.location.href = `/project/${page.toLowerCase().replace(/\s/g, '-')}`;
-	}
+  const goToPageFn = (page) => {
+    appStoreDispatch({ type: CURRENT_PAGE, payload: 'Projects' })
+    window.location.href = `/project/${page.toLowerCase().replace(/\s/g, '-')}`;
+  }
 
-	filterProjectsFn(filter) {
-		this.setState({
-			currentFilter: filter
-		});
-	}
+  const filterProjectsFn = (filter) => {
+    setCurrentFilter({
+      currentFilter: filter
+    });
+  }
 
-	render() {
-		let projects = projectsData.filter((project) => {
-			if(this.state.currentFilter === "All") {
-				return projectsData
-			}
-			return project.filter.includes(this.state.currentFilter)
-		});
+  let projects = projectsData.filter((project) => {
+    if(currentFilter === "All") {
+      return projectsData
+    }
+    return project.filter.includes(currentFilter)
+  });
 
-		const filteredProjects = projects.map((project) => {
-			return <Card key={project.id} {...project} onClickProp={this.goToPageFn} />
-		})
+  const filteredProjects = projects.map((project) => {
+    return <Card key={project.id} {...project} onClickProp={goToPageFn} />
+  })
 
-		return(
-			<Fragment>
-				<main id="mainContent" className="grid-container">
-					<div className="row">
-						<div className="col">
-							<h1 className="h1">Projects</h1>
-						</div>
-					</div>
-					<div className="row">
-						<Filters filterProjectsProp={this.filterProjectsFn} />
-					</div>
-					<div className="row">
-						{filteredProjects}
-					</div>
-				</main>
-			</Fragment>
-		)
-	}
+  return(
+    <Fragment>
+      <main id="mainContent" className="grid-container">
+        <div className="row">
+          <div className="col">
+            <h1 className="h1">Projects</h1>
+          </div>
+        </div>
+        <div className="row">
+          <Filters filterProjectsProp={filterProjectsFn} />
+        </div>
+        <div className="row">
+          {filteredProjects}
+        </div>
+      </main>
+    </Fragment>
+  )
 }

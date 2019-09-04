@@ -11,8 +11,8 @@ export default function Nav(props)
   const projects = appStore.currentPage === 'Projects' ? 'primary active' : 'primary';
   const info = appStore.currentPage === 'Info' ? 'primary active' : 'primary';
 
-  const updateActivePage = (e) => {
-    appStoreDispatch({ type: CURRENT_PAGE, payload: e.currentTarget.innerHTML.toLowerCase() })
+  const updateActivePage = (s) => {
+    appStoreDispatch({ type: CURRENT_PAGE, payload: s })
   }
 
   return(
@@ -21,19 +21,19 @@ export default function Nav(props)
       <header className="grid-container header">
         <div className="row justify-between align-end">
           <div className="col col-auto">
-            <Link to="/" className="logo-wrapper" onClick={(e) => {updateActivePage(e)}}>
+            <Link to="/" className="logo-wrapper" onClick={() => {updateActivePage('projects')}}>
               <img src="/images/logo.svg" alt="Kasey L. Labelle Home Page" className="logo"/>
             </Link>
           </div>
           <nav className="col col-auto col-xs-12">
             <ul className="nav-list">
               <li className="nav-list-item">
-                <Link to="/" className={projects} onClick={() => {updateActivePage('Projects')}}>
+                <Link to="/" className={projects} onClick={() => {updateActivePage('projects')}}>
                   Projects
                 </Link>
               </li>
               <li className="nav-list-item">
-                <Link to="/info" className={info} onClick={(e) => {updateActivePage(e)}}>
+                <Link to="/info" className={info} onClick={() => {updateActivePage('info')}}>
                   Info
                 </Link>
               </li>
