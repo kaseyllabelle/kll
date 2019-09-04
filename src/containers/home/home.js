@@ -1,4 +1,4 @@
-import React, { Fragment, useContext, useState } from 'react';
+import React, { useContext, useState, Fragment } from 'react';
 
 import { appContext } from '../../App';
 import { CURRENT_PAGE, CURRENT_FILTER } from '../../context/constants'
@@ -11,16 +11,16 @@ import Card from '../../components/home.card';
 export default function Home(props)
 {
   const { appStore, appStoreDispatch } = useContext(appContext);
-  const [currentFilter, setCurrentFilter] = useState(appStore.currentFilter);
+  const [ currentFilter, setCurrentFilter ] = useState(appStore.currentFilter);
 
   const goToPageFn = (page) => {
     appStoreDispatch({ type: CURRENT_PAGE, payload: 'Projects' });
-  }
+  };
 
   const filterProjectsFn = (filter) => {
     setCurrentFilter(filter);
     appStoreDispatch({ type: CURRENT_FILTER, payload: filter });
-  }
+  };
 
   const projects = projectsData.filter((project) => {
     if(currentFilter === 'All') {
@@ -30,8 +30,8 @@ export default function Home(props)
   });
 
   const filteredProjects = projects.map((project) => {
-    return <Card key={project.id} {...project} onClickProp={goToPageFn} />
-  })
+    return <Card key={project.id} {...project} onClickProp={goToPageFn}/>
+  });
 
   return(
     <Fragment>
@@ -42,7 +42,7 @@ export default function Home(props)
           </div>
         </div>
         <div className="row">
-          <Filters filterProjectsProp={filterProjectsFn} currentFilterProp={currentFilter} />
+          <Filters filterProjectsProp={filterProjectsFn} currentFilterProp={currentFilter}/>
         </div>
         <div className="row">
           {filteredProjects}

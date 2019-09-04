@@ -1,1 +1,4 @@
-export const initialAppContext = { currentPage: '', currentFilter: 'All' };
+export const initialAppContext = {
+  currentPage: '', 
+  currentFilter: 'All'
+};

@@ -14,8 +14,7 @@ import Home from './containers/home/home';
 export const appContext = React.createContext(initialAppContext);
 
 const App = () => {
-
-  const [appStore, appStoreDispatch] = useReducer(appReducer, initialAppContext);
+  const [ appStore, appStoreDispatch ] = useReducer(appReducer, initialAppContext);
 
   useEffect(() => {
     appStoreDispatch({ type: CURRENT_PAGE, payload: window.location.href });
@@ -23,11 +22,11 @@ const App = () => {
 
   return (
     <appContext.Provider value={{ appStore, appStoreDispatch }}>
-      <Header />
-      <Route exact path="/" component={Home} />
-      <Route path="/info" component={Info} />
-      <Route path="/project/:name" component={ProjectPage} />
-      <Footer />
+      <Header/>
+      <Route exact path="/" component={Home}/>
+      <Route path="/info" component={Info}/>
+      <Route path="/project/:name" component={ProjectPage}/>
+      <Footer/>
     </appContext.Provider>
   )
 }

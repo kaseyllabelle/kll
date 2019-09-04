@@ -1,4 +1,4 @@
-import React, { Fragment, useContext } from 'react';
+import React, { useContext, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 
 import { appContext } from '../App';
@@ -13,7 +13,7 @@ export default function Nav(props)
 
   const updateActivePage = (s) => {
     appStoreDispatch({ type: CURRENT_PAGE, payload: s })
-  }
+  };
 
   return(
     <Fragment>
