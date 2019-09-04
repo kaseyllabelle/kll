@@ -1,5 +1,5 @@
 import React, { Fragment, useContext } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import { appContext } from '../App';
 import { CURRENT_PAGE } from '../context/constants'
@@ -21,26 +21,26 @@ export default function Nav(props)
       <header className="grid-container header">
         <div className="row justify-between align-end">
           <div className="col col-auto">
-            <Link to="/" className="logo-wrapper">
+            <Link to="/" className="logo-wrapper" onClick={(e) => {updateActivePage(e)}}>
               <img src="/images/logo.svg" alt="Kasey L. Labelle Home Page" className="logo"/>
             </Link>
           </div>
           <nav className="col col-auto col-xs-12">
             <ul className="nav-list">
               <li className="nav-list-item">
-                <NavLink exact to="/" className={projects} onClick={(e) => {updateActivePage(e)}}>
+                <Link exact to="/" className={projects} onClick={(e) => {updateActivePage(e)}}>
                   Projects
-                </NavLink>
+                </Link>
               </li>
               <li className="nav-list-item">
-                <NavLink to="/info" className={info} onClick={(e) => {updateActivePage(e)}}>
+                <Link to="/info" className={info} onClick={(e) => {updateActivePage(e)}}>
                   Info
-                </NavLink>
+                </Link>
               </li>
               <li className="nav-list-item">
-                <NavLink to="/documents/kaseyllabelle_resume.pdf" target="_blank" className="primary">
+                <Link to="/documents/kaseyllabelle_resume.pdf" target="_blank" className="primary">
                   Resume
-                </NavLink>
+                </Link>
               </li>
             </ul>
           </nav>
