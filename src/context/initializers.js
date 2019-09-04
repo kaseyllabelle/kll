@@ -1,1 +1,1 @@
-export const initialAppContext = { currentPage: 'Home' };
+export const initialAppContext = { currentPage: 'Projects' };

@@ -2,11 +2,9 @@ import * as appConstants from './constants';
 import { initialAppContext } from './initializers';
 
 export const appReducer = (state = initialAppContext, action) => {
-
-  const currentState = {...state};
-
   switch(action.type) {
     case appConstants.CURRENT_PAGE:
-    default: return currentState;
+    return { ...state, currentPage: action.payload }
+    default: return state;
   }
 }
