@@ -28,7 +28,7 @@ export default function Nav(props)
           <nav className="col col-auto col-xs-12">
             <ul className="nav-list">
               <li className="nav-list-item">
-                <Link exact to="/" className={projects} onClick={(e) => {updateActivePage(e)}}>
+                <Link to="/" className={projects} onClick={() => {updateActivePage('Projects')}}>
                   Projects
                 </Link>
               </li>
