@@ -12,7 +12,7 @@ export default function ProjectPage(props)
 
   let filteredData = {};
   projectsData.forEach((project) => {
-    if (currentProject === project.name.toLowerCase().replace(/\s/g, '-')) {
+    if(currentProject === project.name.toLowerCase().replace(/\s/g, '-')) {
       filteredData = project;
     }
   });
