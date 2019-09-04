@@ -1,7 +1,7 @@
 import React, { Fragment, useState, useContext } from 'react';
 
 import { appContext } from '../../App';
-import { CURRENT_PAGE } from '../../context/constants'
+import { CURRENT_PAGE, CURRENT_FILTER } from '../../context/constants'
 
 import { projectsData } from '../../data/projectsData';
 
@@ -17,14 +17,15 @@ export default function Home(props)
     window.location.href = `/project/${page.toLowerCase().replace(/\s/g, '-')}`;
   }
 
-  const [currentFilter, setCurrentFilter] = useState('All');
+  const [currentFilter, setCurrentFilter] = useState(appStore.currentFilter);
 
   const filterProjectsFn = (filter) => {
     setCurrentFilter(filter);
+    appStoreDispatch({ type: CURRENT_FILTER, payload: filter })
   }
 
   let projects = projectsData.filter((project) => {
-    if(currentFilter === "All") {
+    if(currentFilter === 'All') {
       return projectsData
     }
     return project.filter.includes(currentFilter)

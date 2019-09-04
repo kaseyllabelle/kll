@@ -6,6 +6,10 @@ export const appReducer = (state = initialAppContext, action) => {
     case appConstants.CURRENT_PAGE:
     const currentPage = action.payload.split('/').pop() === 'info' ? 'Info' : 'Projects';
     return { ...state, currentPage }
+
+    case appConstants.CURRENT_FILTER:
+    return { ...state, currentFilter: action.payload }
+
     default: return state;
   }
 }
