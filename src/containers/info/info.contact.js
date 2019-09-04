@@ -1,11 +1,43 @@
 import React, {Fragment} from 'react';
 
+const contactArray = [
+	{
+		className: 'paragraph google-form',
+		link: 'https://goo.gl/forms/fcvTryc6Pryrxjfj2',
+		icon: 'fab fa-google fa-fw fa-lg',
+		sr: 'Contact Form',
+		text: 'contact form'
+	},
+	{
+		className: 'paragraph linkedin',
+		link: 'https://www.linkedin.com/in/kaseyllabelle',
+		icon: 'fab fa-linkedin-in fa-fw fa-lg',
+		sr: 'LinkedIn',
+		text: 'linkedin.com/in/kaseyllabelle'
+	}
+]
+
 export default function Contact(props)
 {
+
+	const socialLinks = contactArray.map(item => {
+		return (
+			<p key={item.className} className={item.className}>
+				<a href={item.link} target="_blank" rel="noopener noreferrer">
+					<i className={item.icon} aria-hidden="true"></i>
+					<span className="sr-only">{item.sr}</span>
+					<span aria-hidden="true">{item.text}</span>
+				</a>
+			</p>
+		)
+	})
+
 	return(
 		<Fragment>
 			<p className="paragraph">If you’d like to learn more about me and my work, chat about an opportunity to work together, or swap puppy pics, get in&nbsp;touch!</p>
 			<div className="social-links">
+				{socialLinks}
+				{/*
 				<p className="paragraph google-form">
 					<a href="https://goo.gl/forms/fcvTryc6Pryrxjfj2" target="_blank" rel="noopener noreferrer">
 						<i className="fab fa-google fa-fw fa-lg" aria-hidden="true"></i>
@@ -41,6 +73,7 @@ export default function Contact(props)
 						<span aria-hidden="true">thatsthefont.tumblr.com</span>
 					</a>
 				</p>
+				*/}
 			</div>
 		</Fragment>
 	)
