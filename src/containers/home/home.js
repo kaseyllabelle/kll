@@ -19,9 +19,7 @@ export default function Home(props)
   }
 
   const filterProjectsFn = (filter) => {
-    setCurrentFilter({
-      currentFilter: filter
-    });
+    setCurrentFilter(filter);
   }
 
   let projects = projectsData.filter((project) => {
