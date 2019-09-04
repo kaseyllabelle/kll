@@ -13,15 +13,14 @@ export default function Home(props)
   const { appStore, appStoreDispatch } = useContext(appContext);
 
   const goToPageFn = (page) => {
-    appStoreDispatch({ type: CURRENT_PAGE, payload: 'Projects' })
-    window.location.href = `/project/${page.toLowerCase().replace(/\s/g, '-')}`;
+    appStoreDispatch({ type: CURRENT_PAGE, payload: 'Projects' });
   }
 
   const [currentFilter, setCurrentFilter] = useState(appStore.currentFilter);
 
   const filterProjectsFn = (filter) => {
     setCurrentFilter(filter);
-    appStoreDispatch({ type: CURRENT_FILTER, payload: filter })
+    appStoreDispatch({ type: CURRENT_FILTER, payload: filter });
   }
 
   let projects = projectsData.filter((project) => {
