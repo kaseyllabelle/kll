@@ -1,8 +1,9 @@
-import React, { useReducer } from 'react';
+import React, { useReducer, useEffect } from 'react';
 import { Route } from 'react-router';
 
 import { appReducer } from './context/reducer';
 import { initialAppContext } from './context/initializers';
+import { CURRENT_PAGE } from './context/constants'
 
 import Header from './components/header';
 import Footer from './components/footer';
@@ -15,6 +16,10 @@ export const appContext = React.createContext(initialAppContext);
 const App = () => {
 
   const [appStore, appStoreDispatch] = useReducer(appReducer, initialAppContext);
+
+  useEffect(() => {
+    appStoreDispatch({ type: CURRENT_PAGE, payload: window.location.href });
+  }, []);
 
   return (
     <appContext.Provider value={{ appStore, appStoreDispatch }}>

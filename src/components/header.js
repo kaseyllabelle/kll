@@ -12,7 +12,7 @@ export default function Nav(props)
   const info = appStore.currentPage === 'Info' ? 'primary active' : 'primary';
 
   const updateActivePage = (e) => {
-    appStoreDispatch({ type: CURRENT_PAGE, payload: e.currentTarget.innerHTML })
+    appStoreDispatch({ type: CURRENT_PAGE, payload: e.currentTarget.innerHTML.toLowerCase() })
   }
 
   return(
