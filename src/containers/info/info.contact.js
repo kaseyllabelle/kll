@@ -6,7 +6,8 @@ export default function Contact(props)
 {
   const socialLinks = contactData.map(item => {
     return (
-      <p key={item.className} className={item.className}>
+      // <p key={item.className} className={item.className}>
+      <p key={item.className} className={`paragraph ${item.className}`}>
         <a href={item.link} target="_blank" rel="noopener noreferrer">
           <i className={item.icon} aria-hidden="true"></i>
           <span className="sr-only">{item.sr}</span>
