@@ -404,7 +404,7 @@ export const projectsData = [
   },
   {
     id: 23,
-    name: `Think you know CSS`,
+    name: `Think you know CSS?`,
     description: [
       `Take this quiz to see how well you actually know CSS. Sounds nerdy in a boring way, you say? Think again, friend. Instead of simply seeing a green checkmark or a red "x" if you've answered a question correctly or not, you'll get real-time visual results. If you answer a question correctly, the styles being asked about in that particular question will be applied to the quiz. If you answer a question incorrectly, you'll be stuck with the browser's (often ugly) default styles. By the end of this quiz, you'll see exactly how well you know CSS. (For best results, use the latest version of Chrome. For hilariously awful results, use the oldest version of Internet Explorer that you can find.)`
     ],
