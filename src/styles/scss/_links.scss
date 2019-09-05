@@ -27,33 +27,25 @@
 
 .primary
 {
-  position: relative;
   display: inline-block;
-  border: 0;
-  padding: 0;
-  background: transparent;
-  color: $font-color-primary;;
+  color: $font-color-primary;
   text-decoration: none;
 
-  &:before
+  &:after
   {
     content: '';
-    position: absolute;
-    bottom: -0.125rem;
-    left: 50%;
-    width: 0;
-    height: 1px;
-    transform: translateX(-50%);
-    transition: width 0.2s ease-in-out;
-    background-color: $accent-color-primary;
+    display: block;
+    border-bottom: 1px solid $accent-color-primary;
+    transform: scaleX(0);
+    transition: transform 0.2s ease-in-out;
   }
 
   &:hover,
   &.active
   {
-    &:before
+    &:after
     {
-      width: 100%;
+      transform: scaleX(1);
     }
   }
 }
