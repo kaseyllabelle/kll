@@ -1,5 +1,5 @@
 import React, { useReducer, useEffect } from 'react';
-import { Route } from 'react-router';
+import { Route } from 'react-router-dom';
 
 import { appReducer } from './context/reducer';
 import { initialAppContext } from './context/initializers';
@@ -19,6 +19,12 @@ const App = () => {
   useEffect(() => {
     appStoreDispatch({ type: CURRENT_PAGE, payload: window.location.href });
   }, []);
+
+  useEffect(() => {
+    window.onpopstate = function(event) {
+      appStoreDispatch({ type: CURRENT_PAGE, payload: window.location.href });
+    };
+  }, [window.location.href]);
 
   return(
     <appContext.Provider value={{ appStore, appStoreDispatch }}>
