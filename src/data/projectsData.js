@@ -369,7 +369,7 @@ export const projectsData = [
     id: 21,
     name: 'Infinite Thanks',
     description: [
-      `I designed a custom thank you card (featuring an intentionally infinite loop) for Cimpress and Vistaprint's WIT group.`
+      `I designed a custom thank you card (featuring an intentionally infinite loop) for Cimpress and Vistaprint's Women In Technology group.`
     ],
     stack: 'InDesign, JavaScript',
     featuredImage: '/images/design/infinite-thanks/00.jpg',
@@ -485,7 +485,7 @@ export const projectsData = [
     id: 27,
     name: 'Bookbinding',
     description: [
-      `I love the tactile qualities of fine paper, book cloth, ribbon and string. I also fancy working with my hands. Since I live largely in a digital world, I get my fix by creating handmade books, folders, and journals, among other things. Here are a few samples.`
+      `I love the tactile qualities of fine paper, book cloth, ribbon, and string. I also fancy working with my hands. Since I live largely in a digital world, I get my fix by creating handmade books, folders, and journals, among other things. Here are a few samples.`
     ],
     featuredImage: '/images/art/bookbinding/00.jpg',
     images: [

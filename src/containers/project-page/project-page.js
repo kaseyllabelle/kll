@@ -12,7 +12,7 @@ export default function ProjectPage(props)
 
   let filteredData = {};
   projectsData.forEach((project) => {
-    if(currentProject === project.name.toLowerCase().replace(/\s/g, '-').replace(/[?!.]/g, '')) {
+    if(currentProject === project.name.toLowerCase().replace(/\s/g, '-').replace(/[?.]/g, '')) {
       filteredData = project;
     }
   });
@@ -25,7 +25,7 @@ export default function ProjectPage(props)
             <ProjectPageImagery imageryProp={filteredData.images}/>
           </div>
           <div className="col col-5 col-s-6 col-xs-12 order-first">
-            <ProjectPageDescription 
+            <ProjectPageDescription
               nameProp={filteredData.name} 
               descriptionProp={filteredData.description}
               stackProp={filteredData.stack}
