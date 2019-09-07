@@ -16,10 +16,7 @@ html
 
   &:focus
   {
-    outline-width: 0.125rem;
-    outline-style: solid;
-    outline-color: rgba($accent-color-primary, 0.5);
-    outline-offset: 0.125rem;
+    outline: 0.125rem solid rgba($accent-color-primary, 0.5);
   }
 
   &::selection
