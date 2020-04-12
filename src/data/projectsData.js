@@ -383,19 +383,15 @@ export const projectsData = [
   },
   {
     id: 22,
-    name: 'adopt-a-bull',
+    name: 'lil bit salty',
     description: [
-      `adopt-a-bull is an app that connects users with ador-a-bull, adopt-a-bull pitbulls.`
+      `lil bit salty is a side project and solution to (eventually) organizing a bunch of recipes (some original and some found).`
     ],
-    stack: 'HTML, CSS, SCSS, JavaScript, React, Redux, Node, Illustrator, Photoshop',
-    url: `https://react-adopt-a-bull.netlify.com/`,
-    featuredImage: '/images/development/adopt-a-bull/00.jpg',
+    stack: 'HTML, SCSS, Flexbox, CSS Grid, Angular 9, GitHub Pages',
+    url: `https://kaseyllabelle.github.io/lil-bit-salty/`,
+    featuredImage: '/images/development/lil-bit-salty/00.jpg',
     images: [
-      '/images/development/adopt-a-bull/01.jpg',
-      '/images/development/adopt-a-bull/02.jpg',
-      '/images/development/adopt-a-bull/03.jpg',
-      '/images/development/adopt-a-bull/04.jpg',
-      '/images/development/adopt-a-bull/05.jpg'
+      '/images/development/lil-bit-salty/01.jpg'
     ],
     filter: [
       'Design',
@@ -425,6 +421,27 @@ export const projectsData = [
   },
   {
     id: 24,
+    name: 'adopt-a-bull',
+    description: [
+      `adopt-a-bull is an app that connects users with ador-a-bull, adopt-a-bull pitbulls.`
+    ],
+    stack: 'HTML, CSS, SCSS, JavaScript, React, Redux, Node, Illustrator, Photoshop',
+    url: `https://react-adopt-a-bull.netlify.com/`,
+    featuredImage: '/images/development/adopt-a-bull/00.jpg',
+    images: [
+      '/images/development/adopt-a-bull/01.jpg',
+      '/images/development/adopt-a-bull/02.jpg',
+      '/images/development/adopt-a-bull/03.jpg',
+      '/images/development/adopt-a-bull/04.jpg',
+      '/images/development/adopt-a-bull/05.jpg'
+    ],
+    filter: [
+      'Design',
+      'Development'
+    ]
+  },
+  {
+    id: 25,
     name: 'IoP',
     description: [
       `This app shows users a curated list of puppy images, videos, and gifs from all over the internet because the Internet of Puppies > the Internet of Things.`
@@ -442,7 +459,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 25,
+    id: 26,
     name: 'Puppies, please!',
     description: [
       `Type an adjective or breed into the input and click "search" for a curated list of your favorite kind of puppy videos. What more could you want?`
@@ -460,7 +477,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 26,
+    id: 27,
     name: 'Drawings & Paintings',
     description: [
       `My career as a Graphic & Web Designer began when my Drawing I professor told me that I was too much of a perfectonist to be a fine artist, and that I should be a Graphic Designer instead. That said, I've never gotten over my love for the feeling of a graphite pencil or conte crayon in my hand. Here are some snapshots of my drawings and paintings.`
@@ -482,7 +499,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 27,
+    id: 28,
     name: 'Bookbinding',
     description: [
       `I love the tactile qualities of fine paper, book cloth, ribbon, and string. I also fancy working with my hands. Since I live largely in a digital world, I get my fix by creating handmade books, folders, and journals, among other things. Here are a few samples.`
@@ -501,7 +518,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 28,
+    id: 29,
     name: 'Home Is Where The Heart Is',
     description: [
       `"Home Is Where The Heart Is" is an exploration of the delicate balance between comfort and devastation.`
