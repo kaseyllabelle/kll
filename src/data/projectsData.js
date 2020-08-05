@@ -337,7 +337,7 @@ export const projectsData = [
       `Epsilon combines industry-leading identity, data science and technology to help the world’s top brands transform customer experiences into meaningful, human experiences that drive results.`,
       `At Epsilon, I work on building the Blueprint component library and its documentation website. I also work across the entire PeopleCloud product suite to bridge the gap between UX and technical implementation while ensuring our products follow best practices, comply with web standards, are accessible to all users, and have maintainable and scalable front-end code.`
     ],
-    stack: 'HTML, CSS, Less, SCSS, JavaScript, jQuery, Angular, React, C#, ASP.NET MVC',
+    stack: 'HTML, SCSS, Angular, JavaScript, jQuery, React, CSS, Less, Razor, C#, ASP.NET MVC',
     url: `http://epsilon-blueprint.netlify.com/`,
     featuredImage: '/images/development/epsilon/00.jpg',
     images: [
@@ -376,7 +376,7 @@ export const projectsData = [
     description: [
       `Vistaprint is an e-commerce company that empowers millions of customers worldwide. During my time at Vistaprint, I worked on the new visitor and returning customer homepages, the all products page, multiple versions of category and product pages, the specials page, the browser upgrade page, and the Vistaprint UI Library.`
     ],
-    stack: 'HTML, CSS, Less, SCSS, JavaScript, jQuery, React, XML, C#, ASP.NET MVC, Sitecore, MySQL',
+    stack: 'HTML, SCSS, Less, JavaScript, jQuery, React, XML, Razor, C#, ASP.NET MVC, Sitecore, MySQL',
     url: `https://www.vistaprint.com`,
     featuredImage: '/images/development/vistaprint/00.jpg',
     images: [
