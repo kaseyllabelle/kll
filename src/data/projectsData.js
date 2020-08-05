@@ -463,7 +463,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 27,
+    id: 26,
     name: 'Drawings & Paintings',
     description: [
       `My career as a Graphic & Web Designer began when my Drawing I professor told me that I was too much of a perfectonist to be a fine artist, and that I should be a Graphic Designer instead. That said, I've never gotten over my love for the feeling of a graphite pencil or conte crayon in my hand. Here are some snapshots of my drawings and paintings.`
@@ -485,7 +485,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 28,
+    id: 27,
     name: 'Bookbinding',
     description: [
       `I love the tactile qualities of fine paper, book cloth, ribbon, and string. I also fancy working with my hands. Since I live largely in a digital world, I get my fix by creating handmade books, folders, and journals, among other things. Here are a few samples.`
@@ -504,7 +504,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 29,
+    id: 28,
     name: 'Home Is Where The Heart Is',
     description: [
       `"Home Is Where The Heart Is" is an exploration of the delicate balance between comfort and devastation.`
