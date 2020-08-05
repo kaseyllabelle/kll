@@ -234,22 +234,6 @@ export const projectsData = [
   },
   {
     id: 13,
-    name: 'Little Peanut',
-    description: [
-      `I designed this custom invitation for a baby shower with an elephant theme.`
-    ],
-    stack: 'Illustrator, InDesign',
-    featuredImage: '/images/design/makala/00.jpg',
-    images: [
-      '/images/design/makala/01.jpg',
-      '/images/design/makala/02.jpg'
-    ],
-    filter: [
-      'Design'
-    ]
-  },
-  {
-    id: 14,
     name: 'Rainbows & Unicorns',
     description: [
       `I designed custom invitations and thank you cards for Eleanor's rainbows and unicorns birthday party.`
@@ -265,7 +249,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 15,
+    id: 14,
     name: 'A Roaring Good Time',
     description: [
       `I designed custom invitations, thank you cards, and return address labels for Raelan's dinosaur birthday party.`
@@ -281,7 +265,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 16,
+    id: 15,
     name: 'Winter ONEderland',
     description: [
       `I designed custom invitations, thank you cards, return address labels, and a milestone poster for Sarah's Winter ONEderland birthday party.`
@@ -299,7 +283,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 17,
+    id: 16,
     name: 'Shell-ebrate!',
     description: [
       `I designed custom invitations, thank you cards, and return address labels for Sarah's Ninja Turtles birthday party.`
@@ -315,23 +299,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 18,
-    name: 'Happily Ever After',
-    description: [
-      `I designed a custom invitation for Jen and Barry's rehearsal dinner.`
-    ],
-    stack: 'Illustrator, InDesign',
-    featuredImage: '/images/design/barry-and-jen/00.jpg',
-    images: [
-      '/images/design/barry-and-jen/01.jpg',
-      '/images/design/barry-and-jen/02.jpg'
-    ],
-    filter: [
-      'Design'
-    ]
-  },
-  {
-    id: 19,
+    id: 17,
     name: 'Epsilon',
     description: [
       `Epsilon combines industry-leading identity, data science and technology to help the world’s top brands transform customer experiences into meaningful, human experiences that drive results.`,
@@ -353,7 +321,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 20,
+    id: 18,
     name: 'Wellness Check Services',
     description: [
       `Wellness Check Services is a medical technology company that provides a fully integrated solution for COVID-19 daily wellness checks used by commercial buildings, construction sites, schools, and more.`,
@@ -372,7 +340,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 21,
+    id: 19,
     name: 'Vistaprint',
     description: [
       `Vistaprint is an e-commerce company that empowers millions of customers worldwide. During my time at Vistaprint, I worked on the new visitor and returning customer homepages, the all products page, multiple versions of category and product pages, the specials page, the browser upgrade page, and the Vistaprint UI Library.`
@@ -391,7 +359,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 22,
+    id: 20,
     name: 'Lesbians Who Tech Boston',
     description: [
       `Lesbians Who Tech + Allies (LWT) is the largest LGBTQ technology community in the world — committed to visibility, intersectionality, and changing the face of technology. The Boston chapter of LWT is one of the most active chapters in the country. Working within the existing national brand, I created a logo and website for the Boston chapter.`
@@ -409,7 +377,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 23,
+    id: 21,
     name: 'lil bit salty',
     description: [
       `lil bit salty is a side project and solution to (eventually) organizing a bunch of recipes (some original and some found).`
@@ -427,7 +395,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 24,
+    id: 22,
     name: 'Infinite Thanks',
     description: [
       `I designed a custom thank you card (featuring an intentionally infinite loop) for Cimpress and Vistaprint's Women In Technology group.`
@@ -443,7 +411,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 25,
+    id: 23,
     name: `Think you know CSS?`,
     description: [
       `Take this quiz to see how well you actually know CSS. Sounds nerdy in a boring way, you say? Think again, friend. Instead of simply seeing a green checkmark or a red "x" if you've answered a question correctly or not, you'll get real-time visual results. If you answer a question correctly, the styles being asked about in that particular question will be applied to the quiz. If you answer a question incorrectly, you'll be stuck with the browser's (often ugly) default styles. By the end of this quiz, you'll see exactly how well you know CSS. (For best results, use the latest version of Chrome. For hilariously awful results, use the oldest version of Internet Explorer that you can find.)`
@@ -464,7 +432,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 26,
+    id: 24,
     name: 'Drawings & Paintings',
     description: [
       `My career as a Graphic & Web Designer began when my Drawing I professor told me that I was too much of a perfectonist to be a fine artist, and that I should be a Graphic Designer instead. That said, I've never gotten over my love for the feeling of a graphite pencil or conte crayon in my hand. Here are some snapshots of my drawings and paintings.`
@@ -486,7 +454,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 27,
+    id: 25,
     name: 'Bookbinding',
     description: [
       `I love the tactile qualities of fine paper, book cloth, ribbon, and string. I also fancy working with my hands. Since I live largely in a digital world, I get my fix by creating handmade books, folders, and journals, among other things. Here are a few samples.`
@@ -505,7 +473,7 @@ export const projectsData = [
     ]
   },
   {
-    id: 28,
+    id: 26,
     name: 'Home Is Where The Heart Is',
     description: [
       `"Home Is Where The Heart Is" is an exploration of the delicate balance between comfort and devastation.`
