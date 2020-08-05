@@ -24,6 +24,7 @@ const App = () => {
     window.onpopstate = function(event) {
       appStoreDispatch({ type: CURRENT_PAGE, payload: window.location.href });
     };
+    // eslint-disable-next-line
   }, [window.location.href]);
 
   return(
