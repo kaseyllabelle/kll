@@ -335,7 +335,8 @@ export const projectsData = [
     name: 'Epsilon',
     description: [
       `Epsilon combines industry-leading identity, data science and technology to help the world’s top brands transform customer experiences into meaningful, human experiences that drive results.`,
-      `At Epsilon, I work on building the Blueprint component library and its documentation website. I also work across the entire PeopleCloud product suite to bridge the gap between UX and technical implementation while ensuring our products follow best practices, comply with web standards, are accessible to all users, and have maintainable and scalable front-end code.`
+      `At Epsilon, I work on building the Blueprint component library, its documentation website, and various other UX Development sites including a demo site for the primary navigation template and a documentation site for the front-end code standards.`,
+      `I also work across the entire PeopleCloud product suite to bridge the gap between UX and technical implementation while ensuring our products follow best practices, comply with web standards, are accessible to all users, and have maintainable and scalable front-end code.`
     ],
     stack: 'HTML, SCSS, Angular, JavaScript, jQuery, React, CSS, Less, Razor, C#, ASP.NET MVC',
     url: `http://epsilon-blueprint.netlify.com/`,
