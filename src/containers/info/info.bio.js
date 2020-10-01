@@ -7,13 +7,13 @@ export default function Bio(props)
       <h1 className="h1">I'm Kasey</h1>
       <img src="/images/kasey.jpg" className="photo photo-xs" alt="Kasey"/>
       <p className="paragraph">
-        I'm a Graphic and Web Designer and Developer living and working in the Greater Boston Area. I am passionate about front-end development, design, art, diversity, accessibility, and&nbsp;community.
+        I'm a Graphic and Web Designer and Developer living and working in the Greater Boston Area. I am passionate about front end development, design, art, diversity, accessibility, and&nbsp;community.
       </p>
       <p className="paragraph">
-        I joined Epsilon as a Senior UX Front End Developer in October 2018. Previously, I was a Senior Software Engineer at Vistaprint, where I held leadership roles in the Pride and Women in Technology employee resource groups and was an operational member of the Inclusion&nbsp;group.
+        I joined Boston Scientific as a Lead Web Front End Developer on the Global Digital Marketing team in September 2020. Previously, I was a Senior UX Front End Developer at&nbsp;Epsilon.
       </p>
       <p className="paragraph">
-        I’m proud to serve as a City Director for Lesbians Who Tech Boston, and to have moderated the group’s 2017 Out Leadership Panel. I’ve been on the other side of the panel experience, too. I was a panelist on the Lesbians Who Tech Roundtable at Wentworth Institute of Technology in November 2018, the Step up and Be a Leader panel at ACT-W Boston in August 2017, and the Women in Careers Meet and Greet panel at Grafton High School in January&nbsp;2017.
+        I'm proud to serve as a City Director for Lesbians Who Tech Boston, and to have moderated the group's 2017 Out Leadership Panel. I've been on the other side of the panel experience, too. I was a panelist on the Lesbians Who Tech Roundtable at Wentworth Institute of Technology in November 2018, the Step up and Be a Leader panel at ACT-W Boston in August 2017, and the Women in Careers Meet and Greet panel at Grafton High School in January&nbsp;2017.
       </p>
       <p className="paragraph">
         I received my B.A. in Studio Arts with a concentration in Graphic Design from Salve Regina University in 2010, and I've since completed multiple continuing ed courses. Most recently, I graduated from Thinkful's Full Stack Flex program and completed ThinkB!G.LearnSmart's course on Web Accessibility, WCAG 2.0, and Section 508&nbsp;Compliance.
