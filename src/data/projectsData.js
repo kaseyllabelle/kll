@@ -362,14 +362,18 @@ export const projectsData = [
     id: 20,
     name: 'Lesbians Who Tech Boston',
     description: [
-      `Lesbians Who Tech + Allies (LWT) is the largest LGBTQ technology community in the world — committed to visibility, intersectionality, and changing the face of technology. The Boston chapter of LWT is one of the most active chapters in the country. Working within the existing national brand, I created a logo and website for the Boston chapter.`
+      `Lesbians Who Tech + Allies (LWT) is the largest LGBTQ technology community in the world — committed to visibility, intersectionality, and changing the face of technology. Working within the existing national brand guidelines, I created a sub-brand for the Boston chapter – one of the most active chapters in the country. I designed a logo, business cards for the City Directors, t-shirts and name tags for members, and event flyers. I also designed and developed a website for the Boston chapter.`
     ],
     stack: 'HTML, CSS',
     url: `http://www.lwtboston.org`,
     featuredImage: '/images/development/lwtboston/00.jpg',
     images: [
       '/images/development/lwtboston/01.jpg',
-      '/images/development/lwtboston/02.jpg'
+      '/images/development/lwtboston/02.jpg',
+      '/images/development/lwtboston/03.jpg',
+      '/images/development/lwtboston/04.jpg',
+      '/images/development/lwtboston/05.jpg',
+      '/images/development/lwtboston/06.jpg'
     ],
     filter: [
       'Design',
