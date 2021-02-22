@@ -328,7 +328,7 @@ export const projectsData = [
       `I managed the COVID-19 screening web app project from concept to completion. I designed the user experience and user interface, built the front-end, and hand-picked a team of two back-end developers and a copywriter. Together, my team and I delivered an end-to-end solution that works for all users, across all devices, and seamlessly integrates with the on-site temperature screening device.`,
       `I also designed the Wellness Check Services brand identity, developed the brand guidelines, and designed signage and a set of custom icons.`
     ],
-    stack: 'HTML, CSS, JavaScript',
+    stack: 'Illustrator, InDesign, HTML, CSS, JavaScript',
     featuredImage: '/images/development/wellness-check-services/00.jpg',
     images: [
       '/images/development/wellness-check-services/01.jpg',
@@ -364,7 +364,7 @@ export const projectsData = [
     description: [
       `Lesbians Who Tech + Allies (LWT) is the largest LGBTQ technology community in the world — committed to visibility, intersectionality, and changing the face of technology. Working within the existing national brand guidelines, I created a sub-brand for the Boston chapter – one of the most active chapters in the country. I designed a logo, business cards for the City Directors, t-shirts and name tags for members, and event flyers. I also designed and developed a website for the Boston chapter.`
     ],
-    stack: 'HTML, CSS',
+    stack: 'Illustrator, InDesign, HTML, CSS',
     url: `http://www.lwtboston.org`,
     featuredImage: '/images/development/lwtboston/00.jpg',
     images: [
